@@ -1,0 +1,79 @@
+*{
+    font-family: Helvetica;
+}
+.container-fluid {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b68d4c+5,b68d4c+5,f3e2c7+30,f3e2c7+54,c19e67+77,e9d4b3+100 */
+    background: rgb(182,141,76); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(182,141,76,1) 5%, rgba(182,141,76,1) 5%, rgba(243,226,199,1) 30%, rgba(243,226,199,1) 54%, rgba(193,158,103,1) 77%, rgba(233,212,179,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(182,141,76,1) 5%,rgba(182,141,76,1) 5%,rgba(243,226,199,1) 30%,rgba(243,226,199,1) 54%,rgba(193,158,103,1) 77%,rgba(233,212,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(182,141,76,1) 5%,rgba(182,141,76,1) 5%,rgba(243,226,199,1) 30%,rgba(243,226,199,1) 54%,rgba(193,158,103,1) 77%,rgba(233,212,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b68d4c', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+}
+body>img {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0 5px;
+}
+p {
+    text-align: justify;
+    margin: 20px;
+}
+h1{
+    font-size: 250%;
+    padding: 10px 0 20px 30px;
+}
+body{
+    background-color: aquamarine;
+}
+#fixed {
+    position: fixed;
+		text-align: center;
+		background-color: white;
+		width: 40%;
+    top: 0;
+    left: 0;
+    border: 3px solid #73AD21;
+		display: none;
+		z-index: 3;
+}
+iframe{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: aquamarine;
+}
+#listaMenu li{
+    text-align: center;
+    font-size: 150%;
+    margin: 0 0 20px 0;
+}
+.jumbotron{
+    text-align: center;
+    height: 20%;
+}
+.footer-bottom {
+    background-color: #0c5460;
+    min-height: 60px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 12px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 12px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+h2{
+    font-size: 150%;
+    padding: 20px 0 20px 20px;
+}
