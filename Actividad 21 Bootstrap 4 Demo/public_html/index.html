@@ -156,7 +156,7 @@
 					<div class="form-group">
 						<div class="row">
 							<!-- Radio botones Sexo -->
-							<div class="btn-group col-12" data-toggle="buttons">
+							<div id = "sexo" class="btn-group col-12" data-toggle="buttons">
 								<label for="hombre" class="btn btn-secondary">Hombre
 									<input name="sexo" type="radio" id="hombre" value="H" required/>
 								</label>
@@ -165,7 +165,7 @@
 								</label>
 							</div>
 							<div class="col-12">
-							<span id="infoSexo" style="display: none">Introduzca un sexo</span>
+								<span id="infoSexo" style="display: none">Introduzca un sexo</span>
 							</div>
 						</div>
 					</div>
@@ -196,7 +196,7 @@
 							<option value="30850">Totana</option>
 							<option value="30000">Murcia</option>
 						</select>
-						<span id="infoCodigo" style="display: none">Elija un código postal</span>
+						<span id="infoCodigo" style="display: none">Elija una población</span>
 					</div>
 					<!-- Subida de archivo -->
 					<div class="form-group">
@@ -213,7 +213,8 @@
 						</div>
 						<div id="divMascotas" class="col-6">
 							<select id="selectMascotas" class="form-control" style="display: none">
-								<option selected>Gato</option>
+								<option>--</option>
+								<option>Gato</option>
 								<option>Perro</option>
 								<option>Pato</option>
 								<option>Otro</option>
@@ -222,7 +223,10 @@
 					</div>
 					<br>
 					<div class ="row">
-						<div id="divOtraMascota" class="col-12"></div>
+						<div class ="col-12">
+							<div id="divOtraMascota"></div>
+							<span id="infoMascota" style="display: none">Mascota incorrecta</span>
+						</div>
 					</div>
 					<hr>
 					<!-- Condiciones -->
